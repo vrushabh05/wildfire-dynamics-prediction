@@ -46,3 +46,9 @@ python make_chart.py      # redraw the curves from results/*.csv
 ## Data
 
 NASA FIRMS MODIS active-fire detections, United States, 2023. The CSV is not included (download from NASA FIRMS). Columns: latitude, longitude, brightness, scan, track, acq_date, acq_time, satellite, instrument, confidence, version, bright_t31, frp, daynight, type.
+
+## Notebooks
+
+- [`Wildfire_dynamics_Prediction.ipynb`](notebooks/Wildfire_dynamics_Prediction.ipynb): the version with the LSTM and CNN-LSTM models and saved outputs.
+- [`Predicting_Wildfire_Dynamics_v1.ipynb`](notebooks/Predicting_Wildfire_Dynamics_v1.ipynb): an earlier version from the previous day (a search of its cells finds no CNN-LSTM).
+
